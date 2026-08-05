@@ -115,3 +115,14 @@ Rust-Wipe-Bot/
 ## 📄 License
 
 This project is open source.
+---
+
+## 👨‍💻 Author
+
+** Gunda Pranay Kumar**
+
+Creator and maintainer of Rust Wipe Bot.
+
+GitHub: https://github.com/Gunda29th
+
+If you find this project useful, consider leaving a ⭐ on the repository.
