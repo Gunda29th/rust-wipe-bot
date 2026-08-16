@@ -1,5 +1,10 @@
-import os
+﻿import os
 from pathlib import Path
+
+import certifi
+
+# Force Python SSL to use Certifi's trusted certificates
+os.environ["SSL_CERT_FILE"] = certifi.where()
 
 import discord
 from discord.ext import commands

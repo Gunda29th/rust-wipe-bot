@@ -4,7 +4,6 @@ from discord.ext import commands
 
 from utils.storage import load_schedules
 from utils.scheduler import WipeScheduler
-from utils.embeds import format_countdown
 
 
 class Wipe(commands.Cog):
@@ -86,7 +85,7 @@ class Wipe(commands.Cog):
 
         embed.add_field(
             name="⏳ Countdown",
-            value=f"⏳ {format_countdown(next_wipe)}",
+            value=f"⏳ <t:{next_timestamp}:R>",
             inline=False
         )
 
@@ -96,7 +95,7 @@ class Wipe(commands.Cog):
             value=(
                 f"📅 <t:{after_timestamp}:D>\n"
                 f"🕒 <t:{after_timestamp}:t>\n"
-                f"⏳ {format_countdown(after_that)}"
+                f"⏳ <t:{after_timestamp}:R>"
             ),
             inline=False
         )

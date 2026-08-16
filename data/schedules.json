@@ -1,1 +1,9 @@
-{}
+{
+    "1501617241031184515": {
+        "schedule": "monthly",
+        "week": "first",
+        "weekday": "thursday",
+        "time": "23:30",
+        "timezone": "Asia/Kolkata"
+    }
+}
